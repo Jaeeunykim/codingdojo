@@ -1,5 +1,5 @@
-# codingdojo
-## solving problem form the codingdojo
+# 코딩코장
+## 코딩도장이란? 
 
 
 
