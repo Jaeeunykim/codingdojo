@@ -112,13 +112,12 @@ int main(void){
 
 void getNum(OCRCELL ocr){
 
-    int temp;
-    //int i =0;
+    bool flag;
 
     for(int j=0; j<10; j++)
     {
-        temp = isEqual(ocr, cells[j]);
-        if(temp == 1)
+        flag = isEqual(ocr, cells[j]);
+        if(flag == true)
         {
             printf("%d ", j);
         }
