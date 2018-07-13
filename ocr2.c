@@ -109,7 +109,7 @@ int main(void){
     printf("\n");
 }
 
-
+//cells에 있는 숫자와 같다면, 실제 숫자로 출력함 
 void getNum(OCRCELL ocr){
 
     bool flag;
@@ -124,6 +124,7 @@ void getNum(OCRCELL ocr){
     }
 }
 
+//input값과 cells에 있는 0~9숫자와 비교 
 bool isEqual(OCRCELL input, OCRCELL num){
 
     for(int i =0; i<4; i++){
